@@ -20,6 +20,10 @@ public class Employee {
 		this.employee_title = employee_title;
 		this.employee_email = employee_email;
 	}
+	
+	public Employee() {
+		
+	}
 
 	public UUID getId() {
 		return id;
